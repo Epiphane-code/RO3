@@ -13,6 +13,7 @@
 
 int main()
 {
+    printf("||||||||||||||||||||| MINI_SHELL RUSH-11 ||||||||||||||||||||||||\n");
     char * line = NULL;                                // Pointeur pour stocker la ligne lue depuis l'entrée standard
     size_t len = 0;                                    // Taille initiale de la ligne, size_t : type non utilisé pour recuperer la taille memoire par exemple
     ssize_t read;                                      // Nombre de caractères lus depuis l'entrée standard
