@@ -2,10 +2,7 @@
 #include <stdlib.h>            // exit(), free() 
 #include <string.h>            // strcmp(), strtok()
 #include <unistd.h>            // chdir(), getcwd(), execvp(), fork(), waitpid()
-#include <sys/types.h>         // pid_t
 #include <errno.h>             // errno
-#include <signal.h>            // signal handling
-#include <fcntl.h>             // open(), O_RDONLY, O_WRONLY, O_CREAT, O_TRUNC
 #include <sys/types.h>         // pid_t
 #include <sys/wait.h>          // waitpid(), WIFEXITED()
 #include <limits.h>            // PATH_MAX
